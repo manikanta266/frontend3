@@ -4,7 +4,8 @@ import axios from "axios";
 import Loader from "./loader.js";
 import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
-import Pagination from './Pagination';
+// import Pagination from './Pagination';
+import Pagination from '././Pagination.jsx'
 
 const ManagerTimesheets = () => {
   const [submissions, setSubmissions] = useState([]);
